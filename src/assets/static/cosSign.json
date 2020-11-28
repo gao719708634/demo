@@ -1,0 +1,17 @@
+{
+  "uid": "1",
+  "requestId": "3011_11111111",
+  "state": {
+    "code": 2000000,
+    "msg": "success"
+  },
+  "data": {
+    "bucketName": "3i-1301860064",
+    "tmpSecretId": "AKIDyS5peec0iCeUJX4TssNY4HxuMXFU9IZynVwkxNNm6CEGAQ9ZNBraI0cR47MQCsWr",
+    "tmpSecretKey": "m2eA8qKZ23d60TMrJvyYc+KIBYFZL7/OtH66FfgTGu8=",
+    "sessionToke": "ddqar4QpH4uqxKLJT6Iu2pmr20PiXVmka3962bde533a9f874b03c479056eaffd6IDD-NzzLbn2GwdbIMkYkck79Ir-3hSAJlfBNV6AUgGEjcikGk6BbZ96N80cqjONgvc6eCz6Ymr89ZJMDZPoxaJ_WvgEAf0OvBAaZVCIApbik5iLAuZwUHNJR3W1yexN-YgwDTjHjyxs1O5TkXNSFb2CCZbLPqqWcp9IfzM9kfTXL7r-Jfdx91ElwO08M25smZdDwmwF1ummz00avtIGtEfN-zuWEVAVNQKmglFKzgQE6NF0Uln6LoL_8HbE-K5HeuYMdrXn6tVp4fF1VhISHKi9qLS8-nTIYM1SQGx6A5q4yoDI6C6sbaa2rpezrdSXmfU0IRCNyZITq-nmFJamoc2z3WEYPC4QRsyLXa0NfRF9P1zIsZXoyTGkmlwlf_HFlZ4lmH4k07DW-g8jRqDmp8L_AXbfI9GG2utmTIQ9D9enuHAs7B0h9OLMByICV28KuIyBaFLdWWrAYMGxfpdyStRDPMYm3SrwZizdh0JZcaCyH_3qqBYCQzds5BBB9yHl02gYBoY4jdjKSuWm3Z2RooMrgzaaxzYyt2XLOi_JO4xMAO4Ih-5kGKIyATEjN0r5hLEMD5BWaQoWCamLN8FqEA",
+    "startTime": 1591062990,
+    "expiredTime": 1591064790,
+    "region":"ap-guangzhou"
+  }
+}

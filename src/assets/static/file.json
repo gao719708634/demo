@@ -1,0 +1,39 @@
+{
+  "state": {
+    "code": 2000000
+  },
+  "files": [
+    {
+        "title": "资源资源资源名字",
+        "author": "小希希",
+        "fileSize": 791952,
+        "fileName": "file_name.mp4",
+        "fileExt": "mp4",
+        "fileType": "3",
+        "storagePath": "/files/999/2020/06/05/27e38886-be9e-28c8-5bd2-9a893cfbb6ad.mp4",
+        "accessUrl": "https://bsl-2-dev-1301860064.cos.ap-guangzhou.myqcloud.com/files/999/2020/06/05/27e38886-be9e-28c8-5bd2-9a893cfbb6ad.mp4",
+        "storagePlatform": 1
+    }],
+    "id": "66",
+    "deleted": 0,
+    "diskId": null,
+    "unitId": null,
+    "courseCategoryId": "4,5,6",
+    "knowledgeIds": "5,5,6",
+    "resourceTagIds": "",
+    "syncDisk": 1,
+    "copyrightState": 2,
+    "copyrightSource": "大大大佬",
+    "copyrightCheck": 0,
+    "status": null,
+    "convertStatus": 0,
+    "language": 2,
+    "openLevel": 2,
+    "collectCount": 0,
+    "userId": null,
+    "knowledgeNames": "",
+    "resourceTagNames": "",
+    "createTime": null,
+    "updateTime": null
+  
+}

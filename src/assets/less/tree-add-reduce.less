@@ -1,0 +1,40 @@
+//element 修改图标(+ -)
+.el-tree{
+  /deep/.know-img{
+    width: 12px;
+  }
+}
+.el-tree{
+
+  /deep/.el-tree-node__expand-icon{
+      border:0;
+      /*自定义，必要时用!important*/
+      background: url(../img/tree-add.png) no-repeat ;
+      background-size: 12px 12px;
+      margin-right: 5px;
+      &:before{
+        display: none;
+      }
+  }
+  /deep/.el-tree-node__expand-icon.expanded{
+      /*自定义，必要时用!important*/
+      background: url(../img/tree-reduce.png) no-repeat ;
+      background-size: 12px 12px;
+      transform: none;
+  }
+  /deep/.is-leaf{
+    background: url(../img/tree-reduce.png) no-repeat ;
+    background-size: 12px 12px;
+  }
+
+
+  /deep/.el-tree-node{
+    &:after {
+      border-top: none;
+    }
+  }
+
+  /deep/.el-tree-node__content{
+    font-size: 14px;
+  }
+}

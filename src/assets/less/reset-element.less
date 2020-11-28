@@ -1,0 +1,105 @@
+//重写element css
+
+//button
+// .el-button--success{
+//   background-color: @btn-success-bg !important;
+//   border-color: @btn-success-bg !important;
+//   &:hover{
+//     background-color: @btn-success-hover !important;
+//     border-color: @btn-success-hover !important;
+//   }
+// }
+
+// 输入框
+.el-input{
+  .el-input__inner{
+    // height: 32px;
+    // line-height: 32px;
+    &:focus{
+      border-color: @font-primary !important;
+    }
+  }
+  .el-input__suffix{
+    &:hover{
+      cursor: pointer;
+    }
+  }
+  .el-icon-search{
+    &:hover{
+      font-size: 20px;
+      color: @font-primary;
+    }
+  }
+  // .el-input__icon{
+  //   line-height: 32px;
+  // }
+}
+
+// .el-cascader-node.in-checked-path{
+//   color: @font-primary !important;
+// }
+// .el-cascader-node__postfix{
+//   top: 10px;
+// }
+// .el-radio__input{
+//   &:hover{
+//     border-color: @font-primary !important;
+//   }
+// }
+// .el-radio__input.is-checked{
+//   .el-radio__inner{
+//     border-color: @font-primary !important;
+//     background: @font-primary !important;
+//   }
+// }
+
+//tabs
+.el-tabs{
+  .el-tabs__nav-wrap{
+    &:after{
+      height: 1px;
+      background-color: #D9D9D9;
+    }
+  }
+  // .is-active{
+  //   color: @font-primary !important;
+  // }
+  // .el-tabs__active-bar{
+  //   background-color: @font-primary;
+  // }
+  .el-tabs__item{
+    font-size: 16px;
+    color: #666666;
+    font-weight:400;
+    &:hover{
+      color: @font-primary;
+    }
+  }
+}
+
+.el-button--small{
+  /deep/.iconfont{
+    font-size: 12px;
+  }
+}
+
+//右侧抽屉
+.right-drawer{
+  /deep/.el-drawer__header{
+    text-align: left;
+    color: @font-default;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid @gray-current;
+  }
+}
+
+// cascader不能选择的隐藏radio
+.el-cascader__dropdown{
+  .is-disabled{
+    .el-radio__input{
+      visibility: hidden;
+    }
+  }
+}

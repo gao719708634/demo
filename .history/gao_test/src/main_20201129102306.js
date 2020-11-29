@@ -3,7 +3,7 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
-import http from './api/http'
+import http from './http'
 import less from 'less'
 import iView from 'iview'
 import 'iview/dist/styles/iview.css'
